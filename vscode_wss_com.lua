@@ -8,7 +8,7 @@ shared.WebSocket = shared.WebSocket or {
 }
 
 shared.WebSocket.integrity = integrity
-shared.WebSocket.debug = true -- set to true if you wanna use the output thingy
+shared.WebSocket.debug = true
 
 local function send_message(type, name, message)
     if (shared.WebSocket.integrity == integrity and shared.WebSocket.socket) then
